@@ -1,0 +1,7 @@
+  <repository>
+      <id>central</id>
+      <url>http://repo.maven.org/maven2</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </repository>

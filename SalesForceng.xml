@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
+	  <parameter name="browser" value="edge"></parameter>
+	  <parameter name="version" value="22H2"></parameter>
+	    <classes>
+			
+	      <class name="Com.SalesForce.Pages.LoginPage">
+	        <methods>
+				<include name="NavigationTOSFDC"/>
+				<include name="LoginTOSFDC"/>
+				<include name="RememberUsername"/>
+				<include name="ForgotPassword"/>
+				<include name="EnterWrongUsernameandPassword"/>
+				<include name="VerifyLogout"/>			
+			</methods>
+			</class>	
+			<class name="Com.SalesForce.Pages.UserMenuDropDownPage">
+		        <methods>
+					<include name="UserMenu"/>
+					<include name="MyProfile"/>
+					<include name="MySettings"/>
+					<include name="DeveloperConsole"/>
+					<include name="Logout"/>					
+				</methods>
+			</class>
+			<class name="Com.SalesForce.Pages.CreateAccountPage">
+	        	<methods>
+					<include name="CreateAnAccount"/>
+					<include name="AccountNew"/>
+					<include name="AccountEdit"/>
+					<include name="LastActivity"/>
+					<include name="AccountMerge"/>
+					<include name="AccountReports"/>			
+				</methods>
+			</class>
+			<class name="Com.SalesForce.Pages.CreateOpportunitiesPage">
+	        	<methods>
+					<include name="OpportunitiesDropDown"/>
+					<include name="NewOpportunity"/>
+					<include name="PipelineReport"/>
+					<include name="StuckOpportunities"/>
+					<include name="QuarterlySummaryReport"/>
+					<include name="VerifyLogout"/>			
+				</methods>       
+	      </class>
+	       <class name="Com.SalesForce.Pages.LeadsPage">
+	        <methods>
+				<include name="LeadsHomepage"/>
+				<include name="Leads_Link"/>
+				<include name="LeadsFunctionality"/>
+				<include name="TodayLeads"/>
+				<include name="Recent_Leads"/>			
+			</methods>       
+	      </class>
+	      	
+	      <class name="Com.SalesForce.Pages.ContactsPage">
+	        <methods>
+				<include name="NewContact"/>
+				<include name="newview"/>
+				<include name="Recentlyview"/>
+				<include name="Mycontacts"/>
+				<include name="Viewcontacts"/>
+				<include name="NewviewinContacts"/>
+				<include name="CheckCancelButton"/>
+				<include name="CheckSaveandNewButton"/>
+				</methods>
+	      </class>
+	      
+	         <class name="Com.SalesForce.Pages.RandomScenariosPage">
+	        <methods>
+				<include name="VerifyFirstAndLastName"/>
+				<include name="EditLastName"/>
+				<include name="CustomizeMyTabs"/>
+				<include name="BlockingEventCalender"/>
+				<include name=" BlockingWeeklyCalendar"/>
+				
+				</methods>
+	      </class>
+	    </classes>
+	     
+	   	
+	  </test> <!-- Default test -->
+	</suite>

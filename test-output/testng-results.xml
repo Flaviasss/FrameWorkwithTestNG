@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T00:10:05 CST" name="Default suite" finished-at="2024-02-21T00:10:21 CST" duration-ms="16074">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T00:10:05 CST" name="Default test" finished-at="2024-02-21T00:10:21 CST" duration-ms="16074">
+      <class name="Com.SalesForce.Pages.LoginPage">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:05 CST" name="setUpSuite" finished-at="2024-02-21T00:10:05 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:05 CST" name="setUpClass" finished-at="2024-02-21T00:10:05 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:05 CST" name="setUp" finished-at="2024-02-21T00:10:09 CST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTOSFDC()[pri:-1, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:09 CST" name="LoginTOSFDC" finished-at="2024-02-21T00:10:21 CST" duration-ms="11846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTOSFDC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:21 CST" name="tearDown" finished-at="2024-02-21T00:10:21 CST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:21 CST" name="tearDownClass" finished-at="2024-02-21T00:10:21 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:Com.SalesForce.Pages.LoginPage@5be067de]" started-at="2024-02-21T00:10:22 CST" name="tearDownSuite" finished-at="2024-02-21T00:10:22 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- Com.SalesForce.Pages.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
